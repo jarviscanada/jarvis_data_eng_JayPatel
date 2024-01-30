@@ -1,0 +1,29 @@
+version: "3.9"
+services:
+  postgres:
+    image: postgres:9.6-alpine
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password
+    ports: 
+      - '5432:5432'
+    volumes:
+      - node_app_pgdata:/var/lib/postgresql/data
+
+  node_app:
+    image: node_app 
+    depends_on:
+      - postgres
+    ports:
+      - '3000:3000'
+
+  angular_app:
+    image: angular_app
+    depends_on :
+      - node_app
+    ports:
+      - '4200:4200'
+
+volumes:
+  node_app_pgdata:
+      external: true
