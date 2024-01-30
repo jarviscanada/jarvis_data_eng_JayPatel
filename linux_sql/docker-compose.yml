@@ -18,7 +18,7 @@ services:
       - '3000:3000'
 
   angular_app:
-    image: angular_app
+    image: angular_ap
     depends_on :
       - node_app
     ports:
