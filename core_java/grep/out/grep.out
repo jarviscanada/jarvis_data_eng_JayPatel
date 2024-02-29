@@ -1,57 +1,6 @@
 import java.io.IOException;
-    public void process() throws IOException {
-        } catch (IOException e) {
-    public void writeToFile(List<String> lines) throws IOException {
-import java.io.IOException;
-     * @throws IOException
-    void process() throws IOException;
-     * @throws IOException
-    void writeToFile(List<String> lines) throws IOException;
-import java.io.IOException;
-    public void process() throws IOException {
-        } catch (IOException e) {
-    public void writeToFile(List<String> lines) throws IOException {
-import java.io.IOException;
-     * @throws IOException
-    void process() throws IOException;
-     * @throws IOException
-    void writeToFile(List<String> lines) throws IOException;
-import java.io.IOException;
-    public void process() throws IOException {
-        } catch (IOException e) {
-    public void writeToFile(List<String> lines) throws IOException {
-import java.io.IOException;
-     * @throws IOException
-    void process() throws IOException;
-     * @throws IOException
-    void writeToFile(List<String> lines) throws IOException;
-import java.io.IOException;
-    public void process() throws IOException {
-        } catch (IOException e) {
-    public void writeToFile(List<String> lines) throws IOException {
-import java.io.IOException;
-     * @throws IOException
-    void process() throws IOException;
-     * @throws IOException
-    void writeToFile(List<String> lines) throws IOException;
-import java.io.IOException;
-    public void process() throws IOException {
-        } catch (IOException e) {
-    public void writeToFile(List<String> lines) throws IOException {
-import java.io.IOException;
-     * @throws IOException
-    void process() throws IOException;
-     * @throws IOException
-    void writeToFile(List<String> lines) throws IOException;
-import java.io.IOException;
-    public void process() throws IOException {
-        } catch (IOException e) {
-    public void writeToFile(List<String> lines) throws IOException {
-import java.io.IOException;
-     * @throws IOException
-    void process() throws IOException;
-     * @throws IOException
-    void writeToFile(List<String> lines) throws IOException;
+        }catch(IOException e) {
+            } catch (IOException e) {
 import java.io.IOException;
     public void process() throws IOException {
         } catch (IOException e) {

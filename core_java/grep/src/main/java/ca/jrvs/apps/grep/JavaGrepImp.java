@@ -42,9 +42,7 @@ public class JavaGrepImp implements JavaGrep {
         List<File> files = new ArrayList<>();
         File dir = new File(rootDir);
         if (dir.isDirectory()) {
-            for (File file : dir.listFiles()) {
                 Collections.addAll(files, dir.listFiles());
-            }
         }
         return files;
     }
