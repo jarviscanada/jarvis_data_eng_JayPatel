@@ -12,7 +12,8 @@ import java.util.Collections;
 import java.util.List;
 import java.util.regex.Pattern;
 
-public class JavaGrepImp implements JavaGrep {
+public class
+JavaGrepImp implements JavaGrep {
 
     final Logger logger = LoggerFactory.getLogger(JavaGrep.class);
 
