@@ -1,5 +1,7 @@
-package ca.jrvs.apps.jdbc;
+package ca.jrvs.apps.jdbc.sampleTest;
 
+import ca.jrvs.apps.jdbc.sampleTest.SimpleCalculator;
+import ca.jrvs.apps.jdbc.sampleTest.SimpleCalculatorImpl;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

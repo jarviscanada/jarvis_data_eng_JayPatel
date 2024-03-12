@@ -1,10 +1,14 @@
-package ca.jrvs.apps.jdbc;
+package ca.jrvs.apps.jdbc.sampleTest;
 
+import ca.jrvs.apps.jdbc.sampleTest.NotSoSimpleCalculatorImpl;
+import ca.jrvs.apps.jdbc.sampleTest.SimpleCalculator;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
+
+import static org.mockito.Mockito.spy;
 import static org.mockito.Mockito.when;
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -39,6 +43,7 @@ class NotSoSimpleCalculatorImplTest {
 
         int expected = 2;
         int actual = notSoSimpleCalculator.abs(-2);
+
         assertEquals(expected,actual);
 
     }
@@ -48,5 +53,22 @@ class NotSoSimpleCalculatorImplTest {
         int expected = 2;
         double actual = notSoSimpleCalculator.sqrt(4);
         assertEquals(expected,actual);
+    }
+
+
+    //SPY example
+    @Test
+    void isDevidedByOrNot()
+    {
+
+
+        NotSoSimpleCalculatorImpl spyNoOfNotSoSImple = spy(notSoSimpleCalculator);
+
+        when(spyNoOfNotSoSImple.abs(4)).thenReturn(4);
+        when(spyNoOfNotSoSImple.abs(2)).thenReturn(2);
+
+        boolean expected = true;
+    boolean actual = spyNoOfNotSoSImple.isDevidedByOrNot(4,2);
+    assertEquals(expected,actual);
     }
 }

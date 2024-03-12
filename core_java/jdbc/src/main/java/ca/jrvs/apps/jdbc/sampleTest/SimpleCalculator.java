@@ -1,4 +1,4 @@
-package ca.jrvs.apps.jdbc;
+package ca.jrvs.apps.jdbc.sampleTest;
 
 public interface SimpleCalculator {
     int add(int x, int y);
