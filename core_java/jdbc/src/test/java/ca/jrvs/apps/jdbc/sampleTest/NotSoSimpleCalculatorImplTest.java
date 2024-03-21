@@ -25,13 +25,11 @@ class NotSoSimpleCalculatorImplTest {
 
     @BeforeEach
     void init() {
-
         notSoSimpleCalculator = new NotSoSimpleCalculatorImpl(mockSimpleCalc);
     }
 
     @Test
     void power() {
-
         int expected = 4;
         int actual = notSoSimpleCalculator.power(2,2);
         assertEquals(expected,actual);
@@ -60,13 +58,9 @@ class NotSoSimpleCalculatorImplTest {
     @Test
     void isDevidedByOrNot()
     {
-
-
         NotSoSimpleCalculatorImpl spyNoOfNotSoSImple = spy(notSoSimpleCalculator);
-
         when(spyNoOfNotSoSImple.abs(4)).thenReturn(4);
         when(spyNoOfNotSoSImple.abs(2)).thenReturn(2);
-
         boolean expected = true;
     boolean actual = spyNoOfNotSoSImple.isDevidedByOrNot(4,2);
     assertEquals(expected,actual);
