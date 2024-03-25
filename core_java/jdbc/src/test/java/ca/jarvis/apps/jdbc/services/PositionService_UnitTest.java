@@ -2,7 +2,6 @@ package ca.jarvis.apps.jdbc.services;
 
 import ca.jrvs.apps.jdbc.dao.*;
 import ca.jrvs.apps.jdbc.services.PositionService;
-import ca.jrvs.apps.jdbc.services.QuoteService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -12,7 +11,6 @@ import org.mockito.junit.jupiter.MockitoExtension;
 import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 

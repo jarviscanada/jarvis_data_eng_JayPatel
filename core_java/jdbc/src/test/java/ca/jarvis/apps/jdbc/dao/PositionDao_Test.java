@@ -2,7 +2,6 @@ package ca.jarvis.apps.jdbc.dao;
 
 import ca.jrvs.apps.jdbc.dao.Position;
 import ca.jrvs.apps.jdbc.dao.PositionDao;
-import ca.jrvs.apps.jdbc.dao.positionHttpHelper;
 
 import okhttp3.OkHttpClient;
 import org.junit.jupiter.api.BeforeEach;
@@ -32,7 +31,7 @@ public class PositionDao_Test {
     @BeforeEach
     void setUp() throws SQLException, IOException {
         positionDao = new PositionDao(DriverManager.getConnection(URL, USER, PASSWORD));
-        position = new positionHttpHelper("aab1c66410mshe7b7b20598d8ad2p1386c6jsn09fd6e3aa699", new OkHttpClient()).fetchQuoteInfo(SYMBOL);
+        position = new Position("MSFT",10,1520.6);
     }
 
     @Test()
