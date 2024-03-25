@@ -8,6 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
+
 public class QuoteDao implements CrudDao<Quote, String> {
 
     private Connection c;
@@ -15,6 +16,11 @@ public class QuoteDao implements CrudDao<Quote, String> {
     public QuoteDao(Connection c)
     {
         this.c = c;
+    }
+
+    public QuoteDao()
+    {
+
     }
     @Override
     public Quote save(Quote entity) throws IllegalArgumentException {
