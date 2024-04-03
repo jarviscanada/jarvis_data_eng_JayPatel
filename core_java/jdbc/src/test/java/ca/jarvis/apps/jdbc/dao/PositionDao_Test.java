@@ -31,7 +31,7 @@ public class PositionDao_Test {
     @BeforeEach
     void setUp() throws SQLException, IOException {
         positionDao = new PositionDao(DriverManager.getConnection(URL, USER, PASSWORD));
-        position = new Position("MSFT",10,1520.6);
+        position = new Position(SYMBOL,20,160);
     }
 
     @Test()
