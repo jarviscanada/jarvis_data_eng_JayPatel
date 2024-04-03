@@ -12,6 +12,7 @@ public class PositionService {
     private PositionDao dao;
     private QuoteDao quoteDao;
 
+
     public PositionService(PositionDao dao,QuoteDao quoteDao)
     {
             this.dao = dao;
@@ -34,18 +35,24 @@ public class PositionService {
         if(positionOptional.isPresent())
         {
             position = positionOptional.get();
-            if(quoteOptional.get().getVolume() <= position.getNumOfShares() + numberOfShares)
+            if(quoteOptional.get().getVolume() >= position.getNumOfShares() + numberOfShares)
             {
             position.setNumOfShares(position.getNumOfShares() + numberOfShares);
             position.setValuePaid(position.getValuePaid() + totalPrice);
+                dao.deleteById(ticker);
+                dao.save(position);
+            }else
+            {
+                System.out.println("Enter Number Of Shares are more then available volume");
             }
 
         }else
         {
             position = new Position(ticker,numberOfShares,totalPrice);
+            dao.save(position);
         }
 
-        dao.save(position);
+
 
         return position;
     }
