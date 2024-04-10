@@ -9,7 +9,7 @@ github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_JayPatel
 # 2) explain your passion for the role you are looking for (e.g. developer, BSA, QA, tech support, etc.)
 # 3) mention what kind of role you are looking for
 # 4) briefly talk about your qualifications (soft and tech) to justify why the hiring manager should hire your 
-summary: Hello, I'm Jay Patel, a Master's student in Big Data Analytics with over 2 years of web development experience. I've honed my skills in Python, R, SQL, and various frameworks like Angular and Spring. As a Senior Web Developer at R P Softech, I crafted a WhatsApp Bot for customer engagement and managed bullion trading apps. I excel in problem-solving, algorithms, and effective teamwork. My experience at Hello Skate Mobility involved upgrading an Android app and developing an admin panel. Passionate about innovating through technology, I am seeking a role that allows me to contribute my technical expertise and creativity. My qualifications include Oracle certifications and successful project leadership in hackathons. I am eager to bring my skills to a dynamic role in web development or data engineering.
+summary: I am a software developer who holds a Master's degree in Big Data Analytics and possesses over 2 years of experience in web development. I've honed my skills in Python, R, SQL, and various frameworks like Angular and Spring. As a Senior Web Developer at R P Softech, I crafted a A WhatsApp bot designed to facilitate bulk messaging for customer engagement purposes and managed bullion trading apps. I excel in problem-solving, algorithms, and effective teamwork. My experience at Hello Skate Mobility involved upgrading an Android app and developing an admin panel. Passionate about innovating through technology, I am seeking a role that allows me to contribute my technical expertise and creativity. My qualifications include Oracle certifications and successful project leadership in hackathons. I am eager to bring my skills to a dynamic role in web development or data engineering.
 
 # Group your skills by level.
 # Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
@@ -17,18 +17,20 @@ summary: Hello, I'm Jay Patel, a Master's student in Big Data Analytics with ove
 skills:
   # At least 5 skills
   proficient:
-    - Javascript-Frameworks(Angular/Node)
+    - Javascript(Angular/Node)
+    - Typescript
     - Firebase
+    - Java
     - RDBMS/SQL
     - Python
     - Docker
   # At least 5 skills
   competent:
-    - JAVA
-    - Spring MVC
+    - GCP
+    - Spring
     - PostgreSQL
     - Machine Learning
-    - GCP
+    - R
   # At least 5 skills
   familiar:
     - Android
@@ -60,7 +62,7 @@ highlighted_projects:
     description: Analyzed over 3 million transactions from the Instacart dataset, employing market basket analysis for insights into customer buying habits. Utilized association rule mining algorithms, including Apriori and FP-growth, to reveal significant trends and identify commonly purchased product combinations.
   - name: "My Portfolio"
     git_url: "https://jay092000.github.io/Myportfolio/"
-    description: Revamp your digital presence with my portfolio website, showcasing proficiency in Full Stack Development, AI, and more. Crafted using HTML/CSS and powered by JavaScript, the site navigates seamlessly, reflecting my commitment to excellence. Dive into my journey, skills, and diverse projects. Explore testimonials and connect for collaborative opportunities. Elevate your browsing experience with a clean, responsive design. Browse my tech journey, witness my skills, and let's connect!
+    description: I created my portfolio website, showcasing proficiency in Full Stack Development, AI, and more. Crafted using HTML/CSS and powered by JavaScript, the site navigates seamlessly, reflecting my commitment to excellence. Dive into my journey, skills, and diverse projects. Explore testimonials and connect for collaborative opportunities. Elevate your browsing experience with a clean, responsive design. Browse my tech journey, witness my skills, and let's connect!
 #List of professional experience
 # Please read the project description guideline carefully. Make sure you follow the simplified SDLC pattern. (t.ly/NlXQ)
 #The description must be more than 25 words. If your experience is not software related, please focus on soft skills and achievements (e.g. team collaboration, problem-solving, improvements, communication).
@@ -74,10 +76,10 @@ professional_experience:
   - title: "Senior Web Developer"
     company: "R P softech"
     duration: "Sep 2020 - December 2021"
-    description: "I spearheaded the development of a WhatsApp Bot, enhancing customer engagement by 30% through bulk messaging. Utilizing Electron and Angular, I crafted a streamlined, user-friendly interface. The management of the database was executed seamlessly with Node.js. Additionally, I engineered two bullion trading apps, implementing a hybrid database with both Sequel and MongoDB. The integration of a web socket between Node and Angular facilitated rapid rate updates. Furthermore, I was involved in the end-to-end development of Accounting software, incorporating Angular for the frontend, Node.js for API interaction, and ensuring a keyboard-driven, auto-backed-up system for day-to-day transaction tracking."
+    description: "I spearheaded the development of a WhatsApp Bot, leveraging Electron and Angular to create a seamless, user-friendly interface. This interface significantly improved customer engagement by 30% through efficient bulk messaging capabilities. The management of the database was executed seamlessly with Node.js. Additionally, I engineered two bullion trading apps, implementing a hybrid database with both Sequel and MongoDB. The integration of a web socket between Node and Angular facilitated rapid rate updates. Furthermore, I was involved in the end-to-end development of Accounting software, incorporating Angular for the frontend, Node.js for API interaction, and ensuring a keyboard-driven, auto-backed-up system for day-to-day transaction tracking."
   - title: "Web Developer & Head of Interns"
     company: "Hello Skate Mobility"
-    duration: "Sep 2020 - December 2021"
+    duration: "July 2019 - Sep 2020"
     description: "Engineered an advanced admin panel employing Spring and Firebase, empowering administrators with real-time oversight of scooter positions and statuses. Implemented cutting-edge features, including geolocation tracking and instant alerts for status changes. Leveraged Firebase's robust database and messaging services to craft a scalable and efficient solution. Additionally, elevated an existing native Android app to a hybrid version using Angular and Firebase, optimizing performance by an impressive 30% through Cordova for native functionality integration."
 
 
@@ -111,6 +113,6 @@ others:
       - "Achieved 1st Place in the Hackathon hosted by Jarvis Consulting Group. And  Teranet Inc. "
   - title: "Activities/Hobbies"
     bullets:
-      - "Compatative Coding"
-      - "Tactical first-person shooter games"
+      - "Achieved a five-star rating in Problem Solving on HackerRank."
+      - "Passionate fan of video games such as CS:GO and Valorant."
 

@@ -1,0 +1,28 @@
+<Configuration status="WARN">
+    <Appenders>
+        <!-- Console Appender -->
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level - %msg%n"/>
+        </Console>
+
+        <!-- File Appender for Debug Logs -->
+        <File name="DebugFile" fileName="src/main/logs/app_debug.log" append="true">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level - %msg%n"/>
+        </File>
+
+        <!-- File Appender for Error Logs -->
+        <File name="ErrorFile" fileName="src/main/logs/app_error.log" append="true">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level - %msg%n"/>
+        </File>
+    </Appenders>
+
+    <Loggers>
+        <!-- Debug Logger -->
+
+        <!-- Error Logger -->
+        <Root level="debug">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="DebugFile"/>
+        </Root>
+    </Loggers>
+</Configuration>
