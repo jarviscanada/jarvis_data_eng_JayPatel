@@ -1,3 +1,7 @@
+# Introduction 
+
+This repository offers a platform for honing SQL skills through practical exercises using a sample database schema. It provides a comprehensive set of SQL queries covering data manipulation, retrieval, aggregation, and joining. Aimed at individuals seeking to improve their SQL proficiency, including students, database administrators, and software developers, the project employs PostgreSQL as the relational database management system and Docker for easy setup and deployment. With a focus on interactive learning, users can practice real-world scenarios, enhancing their understanding of SQL concepts and syntax through hands-on experience and structured exercises. 
+
 # SQL Practice
 
 ## Table Setup (DDL)
