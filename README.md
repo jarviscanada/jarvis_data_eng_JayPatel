@@ -6,7 +6,7 @@ I am a software developer who holds a Master's degree in Big Data Analytics and 
 
 **Proficient:** Javascript(Angular/Node), Typescript, Firebase, Java, RDBMS/SQL, Python, Docker
 
-**Competent:** GCP, Spring, PostgreSQL, Machine Learning, R
+**Competent:** GCP, Spring, PostgreSQL, Machine Learning, R, PySpark, Scala Spark
 
 **Familiar:** Android, PHP, React, C/C++, Hadoop
 
@@ -16,6 +16,12 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_JayPatel](
 
 
 **Linux Cluster Resource Monitoring App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_JayPatel/tree/master/linux_sql)]: This project leverages a CentOS-based virtual machine on Google Cloud Platform (GCP) to orchestrate a VNC and Angular dashboard firewall, enabling real-time tracking of minute-by-minute memory changes. Deployed with Docker, it efficiently manages PostgreSQL, Node.js, and Angular, while Bash scripts handle table initialization and data parsing from tools like vmsat and lscpu. Crontab ensures regular data insertion. With a focus on RDBMS (PostgreSQL), CentOS, Bash, and Docker, this initiative integrates diverse technologies for seamless data tracking and visualization, enhancing system management through robust analytics.
+
+**SQL Practice** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_JayPatel/tree/master/sql)]: This repository offers a platform for honing SQL skills through practical exercises using a sample database schema. It provides a comprehensive set of SQL queries covering data manipulation, retrieval, aggregation, and joining. Aimed at individuals seeking to improve their SQL proficiency, including students, database administrators, and software developers, the project employs PostgreSQL as the relational database management system and Docker for easy setup and deployment. With a focus on interactive learning, users can practice real-world scenarios, enhancing their understanding of SQL concepts and syntax through hands-on experience and structured exercises.
+
+**GREP App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_JayPatel/tree/master/core_java/grep)]: The JavaGrep application is a command-line tool for searching text files using regex patterns. It's built with core Java functionality and libraries, offering users the ability to specify patterns, directories to search, and output files. Features include regex pattern matching, file I/O, and logging. The app aims to enhance SQL skills through practical exercises, suitable for students, DBAs, and developers. Potential improvements include multithreading for performance, advanced search options, and enhanced error handling. The app can be dockerized for easy distribution, and manual testing ensures accuracy.
+
+**Stock Quote Application** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_JayPatel/tree/master/core_java/jdbc)]: The Java Stock Quote Application is a Java 11 tool that allows users to manage stock information from a PostgreSQL database. Developed with Maven and Docker, it fetches data from the Alpha Vantage API, parsing it into JSON format and storing it in the database using QuoteDAO. The application follows a service layer architecture, including Entity, DAO, and service layers, with a controller layer for user interaction. Unit testing covers DAO methods, while integration testing uses Mockito for database and API calls. Manual testing involves inspecting database changes against expected values. This application provides a robust solution for managing and interacting with stock data efficiently.
 
 
 ## Highlighted Projects
@@ -47,6 +53,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_JayPatel](
 ## Miscellaneous
 - Oracle Certified Expert, Java EE 6 Web Component Developer
 - Oracle Certified Professional, Java SE 6 Programmer
+- Databricks Certified Data Engineer Associat
 - Achieved 1st Place in the Hackathon hosted by Jarvis Consulting Group. And  Teranet Inc. 
-- Achieved a five-star rating in Problem Solving on HackerRank.
-- Passionate fan of video games such as CS:GO and Valorant.
+- Compatative Coding
+- Tactical first-person shooter games
