@@ -30,7 +30,7 @@ case $cmd in
   fi
   
   # Create container
-	docker volume create postgresdata #todo #check if this works and probably change the name
+	docker volume create postgresdata
   # Start the container
   docker run --name jrvs-psql \
 	  -e POSTGRES_USER="$db_username" \
