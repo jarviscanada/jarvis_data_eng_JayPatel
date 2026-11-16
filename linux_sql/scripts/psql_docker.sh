@@ -1,19 +1,18 @@
 #!/bin/sh
 
-# Capture CLI arguments
+# Command line arguments
 cmd=$1
 db_username=$2
 db_password=$3
 
-# Start docker
-# Make sure you understand the double pipe operator
+# Start docker if docker is not already running
 sudo systemctl status docker || sudo systemctl start docker
 
-# Check container status (try the following cmds on terminal)
+# Check if container exists and returns an error code
 docker container inspect jrvs-psql
 container_status=$?
 
-# User switch case to handle create|stop|start opetions
+# User switch case to handle the different create|stop|start options
 case $cmd in
   create)
 
@@ -23,7 +22,7 @@ case $cmd in
 		exit 1
 	fi
 
-  # Check # of CLI arguments
+  # Check the number of CLI arguments to make sure a username and password has been provided
   if [ $# -ne 3 ]; then
     echo 'Create requires username and password'
     exit 1
@@ -39,12 +38,12 @@ case $cmd in
 	  -v postgresdata:/var/lib/postgresql/data \
 	  -p 5432:5432 \
 	  postgres:9.6-alpine
-  # Make sure you understand what's `$?`
+
 	exit $?
 	;;
 
   start|stop)
-  # Check instance status; exit 1 if container has not been created
+  # Check container status and exit 1 if container has not been created
   if [ $container_status -ne 0 ]; then
     echo 'Container has not been created'
     exit 1
