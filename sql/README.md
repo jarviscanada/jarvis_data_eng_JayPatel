@@ -1,5 +1,7 @@
 # Introduction
 
+This project is a hands-on exercise in SQL, built around 28 query exercises written against a PostgreSQL database running in a Docker container. The exercises come from an online practice site (PG Exercises) and cover joins, aggregate and window functions, and string manipulation. Each query was first written and run on my local Docker instance, then submitted to the site, which checks the correctness of the answer. This README contains solutions for the 28 query exercises, and can be ran on the website or locally. The file to generate the database (clubdata.sql) can be found in the repository for anyone looking to run the queries locally. Overall, the project was a way to build practical SQL skills while working with PostgreSQL and Docker.
+
 # SQL Queries
 
 ###### Table Setup (DDL)
